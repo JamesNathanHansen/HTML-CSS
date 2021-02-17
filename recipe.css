@@ -1,0 +1,152 @@
+html {
+    font-family: sans-serif;  
+}
+.background {
+    background-color:lightgray;
+}
+
+nav {
+    background-color: navy;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+nav li {
+    padding: 10px 10px;
+    font-size: 25px; 
+}
+
+nav li:hover {
+    background-color:rgb(117, 188, 250);
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+#intro {
+    text-align: center;
+}
+
+img {
+    border-style: solid;
+    border-color: navy;
+    border-width: 5px;
+}
+
+main article {
+    display: flex;
+    font-size: 16px;
+}
+
+main article h3 {
+    text-align: center;
+}
+
+#ingredients {
+    width: 10%;
+    background: navy;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    margin: 5px 5px;
+    padding: 15px 15px;
+}
+
+#steps {
+    width: 45%;
+    background: navy;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    margin: 5px 5px;
+    padding: 15px 15px;
+}
+
+#history {
+    width: 45%;
+    background: navy;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    margin: 5px 5px;
+    padding: 15px 15px;
+    font-size: 20px;
+}
+#other_recipes {
+    width: auto;
+    background: navy;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    margin: 5px 5px;
+    padding: 15px 15px;
+    font-size: 20px;
+}
+
+#other_recipes ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+#other_recipes a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+#other_recipes img {
+    border-color: white;
+    width: 50%;
+    height: auto;
+}
+
+#image img {
+    width: 25%;
+    height: auto;
+}
+
+#image {
+    text-align: center;
+}
+
+footer {
+    background-color: navy;
+    color: white;
+    font-size: 20px; 
+    text-align: center;
+}
+
+footer > p {
+    padding: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .background {
+      background-color: pink;
+    }
+  }
+
+@media screen and (min-width: 750px) {
+    .background {
+      background-color: lightblue;
+    }
+  }
+
+  @media screen and (min-width: 600px) and (max-width: 750px){
+    .background {
+      background-color: yellow;
+    }
+  }

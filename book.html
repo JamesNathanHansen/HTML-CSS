@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favourite Book</title>
+    <!--Using the base tag, reverts all links to the wikipedia for "The Cat in the Hat"-->
+    <base href="https://en.wikipedia.org/wiki/The_Cat_in_the_Hat" target="_blank">
+</head>
+<body>
+    <!--Start of Header-->
+    <header> 
+        <h1>The Cat in the Hat</h1> <!--Webpage heading-->
+        <h2>By Dr. Seuss</h2>
+        <p>This webpage has various details about my favourite book, "The Cat in the Hat" by Dr. Seuss.</p>
+        <a href=""><img src="https://i.imgur.com/9My4X1v.jpg" alt="A cat in a hat" width="500"/></a>
+    </header>
+    <!--End of Header-->
+    <!--Start of Main Content-->
+    <main>
+        <!--Using iframe to embed a YouTube video (iframe used to load another HTML page within itself)-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_uO3xX0wQQc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        <!--Using from to gt input from users-->
+        <form>
+            <!--Start of type text and submit-->
+            <label for="book">Your Favourite Book:</label><br> 
+            <input type="text" id="book" name="book" placeholder="Fantastic Mr. Fox"><br>
+            <label for="author">Author:</label><br>
+            <input type="text" id="author" name="author" placeholder="Roald Dahl">
+            <input type="submit" value="Submit"><br><br>
+            <!--Start of type select-->
+            <label for="best-thing">Choose your favourite 'Thing' from the book:</label>
+            <select id="best-thing" name="best-thing">
+                <option value="Thing 1">Thing 1</option>
+                <option value="Thing 2">Thing 2</option>
+            </select>
+        </form>
+    </main>
+    <!--End of Main Content-->
+    <!--Start of Footer-->
+    <footer>
+    </footer>
+    <!--End of Footer-->
+</body>
+</html>
